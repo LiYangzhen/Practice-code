@@ -5,15 +5,6 @@
  * 返回删除后的链表的头节点。
  */
 
-class ListNode {
-  val: number;
-  next: ListNode | null;
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = val === undefined ? 0 : val;
-    this.next = next === undefined ? null : next;
-  }
-}
-
 function deleteNode(head: ListNode | null, val: number): ListNode | null {
   if (head?.val === val) {
     return head.next;
