@@ -5,6 +5,8 @@
  * 返回删除后的链表的头节点。
  */
 
+import { ListNode } from "./types";
+
 function deleteNode(head: ListNode | null, val: number): ListNode | null {
   if (head?.val === val) {
     return head.next;

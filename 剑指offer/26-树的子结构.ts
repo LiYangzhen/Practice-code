@@ -5,6 +5,8 @@
  * B是A的子结构， 即 A中有出现和B相同的结构和节点值。
  */
 
+import { TreeNode } from "./types";
+
 /**
  * 1.先序遍历
  *
